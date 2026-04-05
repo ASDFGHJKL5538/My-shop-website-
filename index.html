@@ -1,9 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="mr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>राजनंदिनी फोटो फ्रेमिंग - बुलढाणा</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #fffaf0; margin: 0; padding: 0; color: #333; }
         header { background: linear-gradient(135deg, #ff9966, #ff5e62); color: white; padding: 30px 15px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
@@ -14,21 +15,30 @@
         .service-item { background: #fff5e6; padding: 15px; border-radius: 10px; border-left: 5px solid #ff5e62; font-weight: bold; }
         .features { margin: 25px 0; background: #2c3e50; color: white; padding: 20px; border-radius: 10px; text-align: center; }
         .contact-card { background: #fdf2e9; border: 2px dashed #ff5e62; padding: 20px; border-radius: 15px; margin-top: 20px; text-align: center; }
-        .btn { display: inline-block; padding: 15px 25px; margin: 10px; border-radius: 30px; text-decoration: none; font-weight: bold; color: white; transition: 0.3s; }
+        
+        /* Buttons Style */
+        .btn { display: inline-flex; align-items: center; justify-content: center; padding: 12px 25px; margin: 10px; border-radius: 30px; text-decoration: none; font-weight: bold; color: white; transition: 0.3s; width: 250px; border: none; cursor: pointer; }
+        .btn i { margin-right: 10px; font-size: 1.2em; }
+        
         .wa-btn { background-color: #25D366; }
-        .wa-btn:hover { background-color: #128C7E; }
+        .wa-btn:hover { background-color: #128C7E; transform: scale(1.05); }
+        
+        .ig-btn { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+        .ig-btn:hover { opacity: 0.9; transform: scale(1.05); }
+
+        .call-btn { background-color: #007bff; }
+        .call-btn:hover { background-color: #0056b3; transform: scale(1.05); }
+
         .footer { text-align: center; padding: 20px; font-size: 0.9em; color: #777; }
-        .highlight { color: #e74c3c; font-weight: bold; }
+        .highlight { color: #e74c3c; font-weight: bold; font-size: 1.2em; display: block; margin: 10px 0; }
     </style>
 </head>
 <body>
-
 
     <header>
         <h1>राजनंदिनी फोटो फ्रेमिंग</h1>
         <p class="tagline">"तुमच्या आठवणींना द्या सुंदर आणि आकर्षक फ्रेम"</p>
     </header>
-
 
     <div class="main-container">
         <h2>आमची वैशिष्ट्ये</h2>
@@ -41,32 +51,40 @@
             <div class="service-item">🚩 महापुरुषांचे फोटो</div>
         </div>
 
-
         <div class="features">
             <p>✅ दर्जेदार काम | ✅ सुंदर डिझाईन्स | ✅ परवडणारे दर</p>
         </div>
-
 
         <div class="contact-card">
             <h3>संपर्क आणि पत्ता</h3>
             <p><strong>📍 पत्ता:</strong> तानाजी नगर, मच्छी ले आऊट, <br>सप्तशृंगी देवी मंदिराजवळ, बुलढाणा</p>
             <p><strong>👤 प्रोप्राईटर:</strong> यशवंत पठ्ठे</p>
-            <p class="highlight">📞 मोबाईल: 7249003138</p>
             
-            <a href="https://wa.me/917249003138?text=मला फोटो फ्रेमबद्दल माहिती हवी आहे" class="btn wa-btn">व्हॉट्सॲपवर संपर्क करा</a>
-        </div>
+            <span class="highlight"><i class="fas fa-phone-alt"></i> 7249003138</span>
+            
+            <div style="display: flex; flex-direction: column; align-items: center; margin-top: 15px;">
+                <a href="tel:7249003138" class="btn call-btn">
+                    <i class="fas fa-phone"></i> कॉल करा
+                </a>
 
+                <a href="https://wa.me/917249003138?text=मला फोटो फ्रेमबद्दल माहिती हवी आहे" class="btn wa-btn">
+                    <i class="fab fa-whatsapp"></i> व्हॉट्सॲप मेसेज
+                </a>
+
+                <a href="https://www.instagram.com/yashu_1314_?igsh=b2M4Mm45dDZ3ZXZ4" target="_blank" class="btn ig-btn">
+                    <i class="fab fa-instagram"></i> इंस्टाग्राम फॉलो
+                </a>
+            </div>
+        </div>
 
         <p style="text-align: center; margin-top: 20px; font-weight: bold; color: #ff5e62;">
             "राजनंदिनी फोटो फ्रेमिंग - तुमच्या आठवणींना देतो कायमस्वरूपी सुंदर रूप"
         </p>
     </div>
 
-
     <div class="footer">
         © 2026 राजनंदिनी फोटो फ्रेमिंग | Developed by Vishal
     </div>
-
 
 </body>
 </html>
